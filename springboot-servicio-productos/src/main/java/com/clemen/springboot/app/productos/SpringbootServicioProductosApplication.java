@@ -1,17 +1,15 @@
-package com.clemen.springboot.app.item;
+package com.clemen.springboot.app.productos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
-@EnableFeignClients
 @SpringBootApplication
-public class SpringbootServicioItemApplication {
+public class SpringbootServicioProductosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootServicioItemApplication.class, args);
+		SpringApplication.run(SpringbootServicioProductosApplication.class, args);
 	}
 
 }
